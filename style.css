@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 1152px;
+    border: 1px solid black;
+}
+
+.profile > p{
+    font-size: 16px;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+    color: black;
+}
+a:hover{
+    cursor:pointer;
+}
+.pictor > img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.pictor{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30vw; */
+    margin-top: 10vh;
+    margin-left: 10vh;
+    
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.cprofile{
+    width: 497px;
+    height: 66px;
+    margin-top: 10vh;
+    /* margin-left: 20vh; */
+   
+}
+.myButton{
+    font-size: 20px;
+    background-color: #ff6464;
+    color: white;
+    padding: 10px;
+    margin-top: 16px;
+}
+/* profile */
+
+.post{
+    width: 1150px;
+    height: 396px;
+    background-color: #EDF7FA;
+    margin-top: 8vh;
+    
+}
+.toppost > span {
+    font-size: 22px;
+    color: #21243D;
+}
+.toppost > a{
+    color: #00A8CC;
+    font-size: 16px;
+}
+.toppost{
+    width: 856px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vh;
+    padding-top: 2vh;
+}
+
+.boxpost1, .boxpost2{
+    width: 418px;
+    height: 295px;
+    background-color: white;
+}
+.box{
+    width: 856px;
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5vw;
+    margin-top: 1vh;  
+}
+.boxpost1 > h3{
+    font-size: 26px;
+    width: 374px;
+    height: 85px;
+    margin-left: 1.5vw;
+}
+.c2 {
+    font-size: 18px;
+    width: 374px;
+    height: 34px;
+    margin-left: 1.5vw;
+}
+.c3{
+    width: 368px;
+    height: 117px;
+    margin-left: 1.5vw;
+}
+.boxpost2 > h3{
+    font-size: 26px;
+    width: 374px;
+    height: 85px;
+    margin-left: 1.5vw;
+}
+.c4 {
+    font-size: 18px;
+    width: 374px;
+    height: 34px;
+    margin-left: 1.5vw;
+   
+}
+.c5{
+    width: 368px;
+    height: 117px;
+    margin-left: 1.5vw;
+}
+/* post */
+
+/* featuerd */
+.fwork{
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-top: 4vh;
+}
+
+.fbox{
+    width: 882px;
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    align-items: center;
+}
+.fboxtext{
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9vh;
+  }
+  .ps{
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 30%;
+    color: white;
+    background-color: #142850;
+  }
+
+  .blog{
+    width: 682px; 
+    margin-left: 5vw;
+  }
+
+ /*  */
+
+
+
+
+  
